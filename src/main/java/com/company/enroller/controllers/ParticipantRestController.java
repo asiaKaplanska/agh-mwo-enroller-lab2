@@ -67,5 +67,4 @@ public class ParticipantRestController {
         Collection<Participant> participants = participantService.getAll(loginValue, sortBy, sortOrder);
         return new ResponseEntity<Collection<Participant>>(participants, HttpStatus.OK);
     }
-
 }
